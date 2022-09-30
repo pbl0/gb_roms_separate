@@ -38,11 +38,11 @@ if __name__ == "__main__":
                 if gbc_ext in contents:
                     print(gbc_ext)
                     move(f, gbc_outputd)
-                    gb_count += 1
+                    gbc_count += 1
                 elif gb_ext in contents:
                     print(gb_ext)
                     move(f, gb_outputd)
-                    gbc_count += 1
+                    gb_count += 1
     print('GameBoy: ' + str(gb_count))
     print('GameBoy Color: ' + str(gbc_count))
 
