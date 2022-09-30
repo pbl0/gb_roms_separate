@@ -4,13 +4,15 @@ Script that separates `.gb` and `.gbc` ROM files from a single directory. Requir
 
 ## Usage
 
-The ROMS must be placed in the `input/` directory and each has to be in their own `.zip` file.
+1. [Download as a ZIP](https://github.com/pbl0/gb_roms_separate/archive/refs/heads/master.zip) or clone this repository.
 
-Run script from terminal/cmd/powershell:
+2. The ROMS must be placed in `input/` as `.zip` files.
+
+3. Run script from terminal/cmd/powershell:
 ```
 python main.py
 ```
 
-The ROMS will then get copied over to `GB/` and `GBC/` directories.
+4. The ROMS will then get copied to `GB/` and `GBC/` directories.
 
 > You can customize the default folders in the `config.ini` file.
